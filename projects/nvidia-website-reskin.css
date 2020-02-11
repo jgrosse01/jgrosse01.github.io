@@ -1,0 +1,97 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: darkgray;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    background-color: black;
+}
+
+header {
+    background-color: white;
+    text-align: center;
+}
+
+header img {
+    width: 80%;
+    padding: 0;
+}
+
+nav {
+    background-color: #76b900;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+nav li {
+    display: inline;
+}
+
+section {
+    text-align: left;
+    overflow: auto;
+    padding: 2%;
+    color: white;
+}
+
+.nvidia {
+    width: 40%;
+    float: right;
+}
+
+section img {
+    text-align: center;
+    border: 2px solid #76b900;
+}
+
+section h1 {
+    color: #76b900;
+}
+
+section h2 {
+    color: #76b900;
+}
+
+section a {
+    color: white;
+    text-decoration-color: #76b900;
+}
+
+.button {
+    background-color: #76b900;
+    color: white;
+    text-decoration: none;
+    margin: 15px, 0;
+    padding: 10px;
+    display: inline-block;
+    border-radius: 8px;
+}
+
+footer {
+    background-color: #76b900;
+    text-align: center;
+}
