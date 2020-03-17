@@ -1,0 +1,148 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #2f2f2f;
+}
+
+body#autumn {
+    background-color: #b86d08;
+}
+
+body#winter {
+    background-color: #b0c4cd;
+}
+
+body#spring {
+    background-color: #b9e9af;
+}
+
+body#summer {
+    background-color: #ffb321;
+}
+
+#wrap {
+    width: 70%;
+    margin: 0 auto;
+    background-color: black;
+    overflow: auto;
+}
+
+.leftCol {
+    width: 49%;
+    float: left;
+    position: relative;
+}
+
+.rightCol {
+    width: 49%;
+    float: right;
+}
+
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+header figure {
+    display: inline;
+    width: 20%;
+
+}
+
+header figure img {
+    width: 15%;
+    margin: 42px 0;
+}
+
+header img {
+    margin: 0, auto;
+    width: 80%;
+    padding: 0;
+}
+
+header h1 {
+    font-family: cursive;
+    font-size: 25px;
+    /* CURSIVE FONT FROM GOOGLE, ASK ROBERT*/
+}
+
+nav {
+    background-color: darkgrey;
+    text-align: center;
+    padding: 10px 0;
+    color: white;
+}
+
+nav ul {
+    margin: 0;
+    padding: 0;
+}
+
+nav a {
+    color: white;
+    padding: 10px 30px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+nav li {
+    display: inline;
+}
+
+section {
+    text-align: center;
+    overflow: auto;
+    padding: 2%;
+    color: white;
+}
+
+section p {
+    display: block;
+    text-align: left;
+    text-indent: 5%;
+    font-size: 20px;
+    padding: 15px;
+}
+
+
+section img {
+    text-align: center;
+    border: 5px solid darkgrey;
+
+}
+
+section h1 {
+    color: white;
+    font-size: 30px;
+}
+
+section h2 {
+    color: white;
+    font-size: 14px;
+}
+
+section a {
+    color: white;
+    text-decoration-color: #76b900;
+}
+
+
+footer {
+    background-color: darkgrey;
+    text-align: center;
+    color: white;
+}
+
+footer p {
+    margin: 0 auto;
+    padding: 10px auto;
+}
