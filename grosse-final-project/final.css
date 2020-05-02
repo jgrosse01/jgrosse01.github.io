@@ -1,0 +1,323 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhaina+2&family=Roboto&display=swap');
+
+:root {
+    --red: #FC0718;
+}
+
+body {
+    background-color: #bbb;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+    font-family: 'Baloo Bahina 2', cursive;
+}
+
+header,
+nav,
+footer {
+    margin: 0;
+    padding: 10px;
+}
+
+#wrap {
+    width: 75%;
+    margin: 0 auto;
+    background-color: #999;
+    padding: 0;
+}
+
+header,
+footer {
+    background-color: #222;
+    text-align: center;
+    padding: 0;
+}
+
+header h2 {
+    padding-top: 55px;
+    padding-bottom: 20px;
+    color: white;
+}
+
+header img {
+    width: 100%;
+}
+
+
+.menu {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 1080px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    list-style-type: none;
+}
+
+.menu a li {
+    text-decoration: none;
+    align-self: center;
+    padding: 10px 15px;
+    transition: background .2s ease;
+}
+
+#checkbox1,
+.toggle {
+    display: none;
+}
+
+nav {
+    margin: 0px auto;
+    background-color: #555;
+}
+
+nav span {
+    color: white;
+}
+
+footer {
+    text-align: center;
+    margin 0;
+    background-color: #555;
+    overflow: auto;
+}
+
+footer ul {
+    padding: 0;
+}
+
+footer li {
+    display: inline;
+    padding: 15px 2%;
+}
+
+footer a li,
+nav a,
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+nav a {
+    padding: 0 0.5% 0 0;
+}
+
+nav a:hover {
+    background-color: var(--red);
+}
+
+section {
+    overflow: auto;
+}
+
+section p a {
+    text-decoration: none;
+    color: white;
+}
+
+section p a:hover {
+    text-decoration: underline;
+}
+
+.nonmain {
+    background-color: #ddd;
+}
+
+section aside {
+    background-color: #999;
+    width: 15%;
+    float: left;
+    text-align: center;
+    padding: 20px 0 0 0;
+}
+
+section aside a,
+section aside h1,
+section aside li {
+    text-decoration: none;
+    color: black;
+}
+
+section aside ul {
+    list-style-type: none;
+    margin: 10px 0;
+    padding: 0;
+}
+
+section aside h1 {
+    margin: 0 10px;
+}
+
+section aside h1 {
+    text-align: center;
+}
+
+section aside li:hover {
+    background-color: var(--red);
+    color: white;
+}
+
+section article {
+    width: 85%;
+    float: right;
+    background-color: #ddd;
+    padding: 0 0 20px 0;
+}
+
+section article h2,
+section article h1 {
+    margin: 0 5% 20px;
+    text-decoration: underline;
+}
+
+section article p {
+    margin: 0 5% 20px;
+}
+
+.center {
+    margin: 0 auto;
+    width: 100%;
+    display: block;
+}
+
+.citation {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    color: #bbb;
+}
+
+.citation a {
+    color: #cbd;
+}
+
+footer li:hover {
+    text-decoration: underline;
+}
+
+footer p {
+    color: #ccc;
+    margin: 0;
+    padding: 0 0 5px;
+}
+
+.sharethis-inline-share-buttons {
+    padding: 0 0 20px 0;
+}
+
+form {
+    width: 55%;
+    margin: 20px auto;
+    background-color: #555;
+    color: white;
+    padding: 7px;
+    border-radius: 7px;
+}
+
+legend {
+    font-size: 30px;
+    color: white;
+    background-color: var(--red);
+    font-weight: bold;
+    padding: 5px 10px;
+    border-radius: 7px;
+}
+
+.embed-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    margin-bottom: -3%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+}
+
+.embed-container iframe,
+.embed-container object,
+.embed-container embed {
+    border: solid #555 4px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 90%;
+    height: 90%;
+    margin: 0 5%;
+}
+
+@media screen and (max-width: 1080px) {
+    #wrap {
+        width: 100%;
+    }
+
+    .toggle {
+        clear: both;
+        display: block;
+        text-align: center;
+        height: 25px;
+        cursor: pointer;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        transition: all 0.5s ease;
+    }
+
+    .toggle:hover {
+        background: var(--red);
+    }
+
+    #checkbox1:checked + label .demo li {
+        opacity: 1;
+        visibility: visible;
+        transition: all .7s ease;
+        pointer-events: all;
+    }
+
+    #checkbox1:checked + label .demo {
+        height: 320px;
+    }
+
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        height: 0px;
+        transition: height 0.7s ease;
+    }
+
+
+    .menu li {
+        display: flex;
+        align-self: center;
+        width: 95%;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .menu li,
+    .menu a {
+        width: 95%;
+        text-align: center;
+        align-self: center;
+        align-content: center;
+        pointer-events: none;
+    }
+
+
+    section aside {
+        float: none;
+        width: 100%;
+    }
+
+    section article {
+        float: none;
+        width: 100%;
+    }
+}

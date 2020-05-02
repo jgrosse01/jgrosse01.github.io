@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Programming In Games</title>
+    <link href="final.css" type="text/css" rel="stylesheet">
+
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="nivo-slider.css" type="text/css" media="screen" />
+
+    <script type="text/javascript" src="scripts/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+        $(window).load(function() {
+            $('#slider').nivoSlider();
+        });
+
+    </script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-160879539-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-160879539-1');
+
+    </script>
+
+</head>
+
+<body>
+    <div id="wrap">
+
+        <header>
+            <div class="slider-wrapper theme-dark">
+                <div id="slider" class="nivoSlider">
+                    <img src="images/blur-code1.png" data-thumb="images/blur-code1.png" alt="" transition="fade" />
+                    <img src="images/blur-code2.png" data-thumb="images/blur-code2.png" alt="" transition="fade" />
+                    <img src="images/blur-code3.png" data-thumb="images/blur-code3.png" alt="" transition="fade" />
+                    <img src="images/blur-code4.png" data-thumb="images/blur-code4.png" alt="" transition="fade" />
+                </div>
+            </div>
+            <h2>Programmer's Paradise: Choice Game Languages</h2>
+        </header>
+
+        <nav>
+            <input id="checkbox1" type="checkbox">
+            <label for="checkbox1">
+                <ul class="menu demo">
+                    <a href="index.html">
+                        <li>Home</li>
+                    </a>
+                    <a href="1.history-of-code.html">
+                        <li>History Of Code</li>
+                    </a>
+                    <a href="2.java-.html">
+                        <li>Java</li>
+                    </a>
+                    <a href="3.c-plus-plus.html">
+                        <li>C++</li>
+                    </a>
+                    <a href="4.python.html">
+                        <li>Python</li>
+                    </a>
+                    <a href="5.prebuilt-engines.html">
+                        <li>Pre-Built Engines</li>
+                    </a>
+                    <a href="questionaire.html">
+                        <li>Coding Questionnaire</li>
+                    </a>
+                </ul>
+                <span class="toggle">☰</span>
+            </label>
+        </nav>
+
+        <section style="text-align: center; font-size: 40px; color: white;">
+            <h2>Thank you for completing our survey!</h2>
+            <p>Return to <a href="index.html">Home</a></p>
+        </section>
+
+        <footer>
+            <ul>
+                <li><a href="contact-us.html">Contact Us</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="privacy.html">Privacy Policy</a></li>
+            </ul>
+            <div class="sharethis-inline-share-buttons"></div>
+
+            <!--SHARE BUTTON SCRIPT-->
+            <script type="text/javascript" src="https://platform-api.sharethis.com/js/sharethis.js#property=5ea865cff04b1400194ea6bc&product=inline-share-buttons" async="async"></script>
+            <p>&copy; Copyright 2019-2020 Gross&eacute; Publishing Inc</p>
+            <p><i>All rights reserved. Violators will be tracked down and firmly embraced.</i></p>
+        </footer>
+
+    </div>
+
+</body>
+
+</html>
